@@ -4,7 +4,7 @@ package com.mycompany.studentlst;
  *
  * @author MoaathAlrajab
  */
-public class Student {
+public class Student { 
     
     private String name;
 
