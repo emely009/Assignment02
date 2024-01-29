@@ -11,7 +11,7 @@ public class StudentLst {
         Student[] students= new Student[2];
         Scanner inScanner = new Scanner(System.in);
         
-        for(int i=0; i< students.length;i++){
+        for(int i=0; i< students.length;i++){ 
             System.out.print("Enter student's name: ");
             String name = inScanner.nextLine();
             Student student = new Student(name);
